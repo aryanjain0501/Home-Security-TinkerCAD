@@ -37,7 +37,7 @@ void loop() {
 
 void checkSensors() {
     gasSensorVal = readGasMeasurement();
-    visitor = checkDoor();
+    intruder = checkDoor();
     force = readForce();
 }
 
